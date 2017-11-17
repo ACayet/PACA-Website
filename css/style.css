@@ -17,10 +17,11 @@
 
 .navbar-custom .navbar-nav .nav-link {
     color: #2b6ca3;
-    padding : 20px 62.9px 20px 62.9px;
+    padding: 20px 62.9px 20px 62.9px;
 }
 
 /* change the background color */
+
 .navbar-custom .navbar-nav .nav-item {
     background-color: #fffff;
 }
@@ -31,17 +32,17 @@
 .navbar-custom .nav-item:hover .nav-link {
     color: #fffff;
     -webkit-transition: all 0.2s;
-    transition:all 0.2s;
+    transition: all 0.2s;
 }
 
-.navbar-custom .nav-item.active .nav-link{
+.navbar-custom .nav-item.active .nav-link {
     background-color: #2b6ca3;
 }
 
 .navbar-custom .nav-item:hover {
     background-color: #2b6ca3;
     -webkit-transition: all 0.5s;
-    transition:all 0.5s;
+    transition: all 0.5s;
 }
 
 nav {
@@ -52,4 +53,31 @@ nav {
 
 }
 
+.container-fluid{
+    padding: 0;
+}
 
+/* Changes position of caption */
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+}
+
+.tales {
+  width: 100%;
+}
+/*
+Forces image to be 100% width and not max width of 100%
+*/
+.carousel-item .img-fluid {
+  width:100%;
+}
+
+/* 
+anchors are inline so you need ot make them block to go full width
+*/
+.carousel-item a {
+  display: block;
+  width:100%;
+}
