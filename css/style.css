@@ -158,6 +158,7 @@ anchors are inline so you need ot make them block to go full width
         color: #2b6ca3;
         padding: 20px 54.4px 20px 54.4px;
     }
+<<<<<<< HEAD
 
 }
 
@@ -172,3 +173,12 @@ anchors are inline so you need ot make them block to go full width
 }
 
 }
+=======
+}
+
+.row
+{
+  vertical-align:top;
+  display:inline-block;
+}
+>>>>>>> e0da42d2eaa3f55f85ef1b7f8a670268edde00cb
