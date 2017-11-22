@@ -121,6 +121,7 @@ anchors are inline so you need ot make them block to go full width
     font-family: "AssistantEB", "Arial Black";
     letter-spacing: 0.2em;
     text-shadow: 2px 2px #000000;
+    text-align: center;
 }
 
 #carousel p {
@@ -129,15 +130,45 @@ anchors are inline so you need ot make them block to go full width
     letter-spacing: 0.2em;
 }
 
+@media all and (min-width: 200px) and (max-width:500px) {
+    #carousel h2 {
+        font-size: 40px;
+        font-family: "AssistantEB", "Arial Black";
+        letter-spacing: 0.2em;
+        text-shadow: 2px 2px #000000;
+    }
+    #carousel p {
+        font-size: 30px;
+
+    }
+    .btn-round {
+        font-size: 15px;
+    }
+}
+
 @media all and (min-width: 200px) and (max-width: 1200px) {
     .navbar-custom {
         background-color: #fffff;
         padding: 0;
         font-size: 14px;
         white-space: nowrap;
+        text-align: center;
     }
     .navbar-custom .navbar-nav .nav-link {
         color: #2b6ca3;
         padding: 20px 54.4px 20px 54.4px;
     }
+
+}
+
+@media all and (min-width: 500px) and (max-width: 1000px) {
+    #carousel h2 {
+        font-size: 60px;
+        font-family: "AssistantEB", "Arial Black";
+        letter-spacing: 0.2em;
+        text-shadow: 2px 2px #000000;
+    }
+
+}
+
 }
