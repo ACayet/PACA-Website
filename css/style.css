@@ -28,6 +28,18 @@
 
 }
 
+@font-face {
+    font-family: AlteDIN;
+    src: url(../font/AlteDIN.ttf);
+
+}
+
+@font-face {
+    font-family: WireOne;
+    src: url(../font/WireOne.ttf);
+
+}
+
 /* change the background color */
 
 .navbar-custom {
@@ -96,6 +108,10 @@ nav {
 
 .tales {
     width: 100%;
+}
+
+.fontAlteDin{
+    font-family: "AlteDin","Arial";
 }
 
 .carousel-indicators li {
