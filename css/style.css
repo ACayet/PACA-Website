@@ -1,3 +1,15 @@
+.alAncre{
+	
+	display: inline;
+	
+}
+
+.alAncreT{
+	
+	margin-left:-27%;
+	
+}
+
 @font-face {
     font-family: AssistantEB;
     src: url(../font/AssistantEB.ttf);
