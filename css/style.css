@@ -218,7 +218,7 @@ h1 {
 
 h11{ /*Paragraphe dans une partie*/
 	
-	font-size: 21px;
+	font-size: 20px;
 	font-family: "DINLight", "Arial Black";
 	text-align: justify;
 	
@@ -226,7 +226,7 @@ h11{ /*Paragraphe dans une partie*/
 
 h12{ /*Titre d'un paragraphe*/
 	
-	font-size: 22px;
+	font-size: 29px;
 	font-family: "DINLight", "Arial Black";
 	text-align: justify;
 	font-weight:bold;
@@ -357,6 +357,16 @@ h13{ /*Texte footer*/
 	font-size:50px;
 } 
 
+/* Google + */
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  height: 50px;
+  width: 50px;
+  text-align:center;
+  margin-top:10px;
+  font-size:50px;
+}
 
 .boutonRS{
 	text-align:center;
