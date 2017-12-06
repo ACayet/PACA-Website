@@ -216,11 +216,47 @@ h1 {
     margin-top : 0.9em;
 }
 
+h11{ /*Paragraphe dans une partie*/
+	
+	font-size: 23px;
+	font-family: "DINLight", "Arial Black";
+	text-align: justify;
+	
+}
+
+h12{ /*Titre d'un paragraphe*/
+	
+	font-size: 27px;
+	font-family: "DINLight", "Arial Black";
+	text-align: justify;
+	font-weight:bold;
+	
+}
+
+h13{ /*Texte footer*/
+	
+	font-size: 12px;
+	font-family: "DINLight", "Arial Black";
+	text-align: center;
+	color:DarkGrey;
+	
+}
+
 .remplirEcran{
     width: -webkit-fill-available;
 }
 
+.imageRight{ /*Mettre une image sur la droite*/
+	
+	text-align:right;
 
+}
+
+.imageLeft{ /*Mettre une image sur la gauche*/
+	
+	text-align: left;
+
+}
 
 #carousel p {
     font-size: 44px;
@@ -280,3 +316,48 @@ h1 {
 }
 
 > > > > > > > e0da42d2eaa3f55f85ef1b7f8a670268edde00cb
+
+/*Bouton réseaux sociaux*/
+
+ /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+	height: 50px;
+	width: 50px;
+	text-align:center;
+	margin-top:10px;
+	font-size:50px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+	height: 50px;
+	width: 50px;
+	text-align:center;
+	margin-top:10px;
+	font-size:50px;
+} 
+
+
+.boutonRS{
+	text-align:center;
+}
