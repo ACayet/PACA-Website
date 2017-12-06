@@ -208,6 +208,28 @@ anchors are inline so you need ot make them block to go full width
     margin-top : 0.6em;
 }
 
+#texteG{
+    text-align: left;
+}
+#texteD{
+    text-align: right;
+}
+
+.texte{
+    font-family: "DINLight", "Arial Black";
+    margin-bottom: 50px;
+}
+
+.texte h3{
+    
+    font-weight: bold;
+    font-size : 29px;
+}
+
+.texte p{
+    font-size : 19px;
+}
+
 h1 {
     font-size: 120px;
     font-family: "AssistantEB", "Arial Black";

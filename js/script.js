@@ -8,7 +8,7 @@ jQuery(function () {
     });
 
     $("#cannes").click(function () {
-        location.href = "cannes.html";
+        location.href = "cannes.html#debutpage";
     });
 
     $("#marseille").click(function () {
