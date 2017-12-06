@@ -218,7 +218,7 @@ h1 {
 
 h11{ /*Paragraphe dans une partie*/
 	
-	font-size: 23px;
+	font-size: 21px;
 	font-family: "DINLight", "Arial Black";
 	text-align: justify;
 	
@@ -226,7 +226,7 @@ h11{ /*Paragraphe dans une partie*/
 
 h12{ /*Titre d'un paragraphe*/
 	
-	font-size: 27px;
+	font-size: 22px;
 	font-family: "DINLight", "Arial Black";
 	text-align: justify;
 	font-weight:bold;
