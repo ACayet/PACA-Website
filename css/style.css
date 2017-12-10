@@ -215,6 +215,10 @@ anchors are inline so you need ot make them block to go full width
     text-align: right;
 }
 
+#texteM{
+    text-align: center;
+}
+
 .texte{
     font-family: "DINLight", "Arial Black";
     margin-bottom: 50px;
@@ -224,6 +228,11 @@ anchors are inline so you need ot make them block to go full width
     
     font-weight: bold;
     font-size : 29px;
+}
+.grandTexte h3{
+    
+    font-weight: bold;
+    font-size : 50px;
 }
 
 .texte p{
