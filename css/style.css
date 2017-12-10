@@ -208,14 +208,14 @@ anchors are inline so you need ot make them block to go full width
     margin-top : 0.6em;
 }
 
-#texteG{
+.texteG{
     text-align: left;
 }
-#texteD{
+.texteD{
     text-align: right;
 }
 
-#texteM{
+.texteM{
     text-align: center;
 }
 
