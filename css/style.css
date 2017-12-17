@@ -5,6 +5,12 @@
 }
 
 @font-face {
+    font-family: DotMatri;
+    src: url(../font/DOTMATRI.ttf);
+
+}
+
+@font-face {
     font-family: AvenirLight;
     src: url(../font/AvenirLight.otf);
 
@@ -201,54 +207,128 @@ anchors are inline so you need ot make them block to go full width
     font-family: "DINLight", "Arial Black";
 }
 
-#caption h2{
+#caption h2 {
     font-family: "AssistantEB", "Arial";
     font-size: 100px;
     letter-spacing: 0.2em;
-    margin-top : 0.6em;
+    margin-top: 0.6em;
 }
 
-.texteG{
+.texteG {
     text-align: left;
 }
-.texteD{
+
+.texteD {
     text-align: right;
 }
 
-.texteM{
+.texteM {
     text-align: center;
 }
 
-.texte{
+.texte {
     font-family: "DINLight", "Arial Black";
     margin-bottom: 50px;
 }
 
-.texte h3{
-    
+.texte h3 {
+
     font-weight: bold;
-    font-size : 29px;
-}
-.grandTexte h3{
-    
-    font-weight: bold;
-    font-size : 50px;
+    font-size: 29px;
 }
 
-.texte p{
-    font-size : 19px;
+.grandTexte h3 {
+
+    font-weight: bold;
+    font-size: 50px;
 }
+
+.texte p {
+    font-size: 19px;
+}
+
+
 
 h1 {
     font-size: 120px;
     font-family: "AssistantEB", "Arial Black";
-    color : rgb(96,94,94);
+    color: rgb(96, 94, 94);
     letter-spacing: 0.15em;
-    margin-top : 0.9em;
+    margin-top: 0.9em;
 }
 
-.remplirEcran{
+.scrollTop {
+    position: fixed;
+    right: 3%;
+    bottom: 10px;
+    padding: 20px;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.scrollTop a {
+    font-size: 18px;
+    color: rgb(86,176,220);
+        border : 1px solid rgb(86,176,220);
+}
+
+#meteo {
+    text-align: center;
+    table-layout: fixed;
+    font-family: "DotMatri", "Arial";
+
+
+}
+a{
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#meteo td {
+    width: 33%;
+}
+
+.heureT {
+    font-size: 40px;
+}
+
+.temp {
+    font-size: 30px;
+}
+
+#nomVille {
+    font-size: 60px;
+}
+
+.remplirEcran {
     width: -webkit-fill-available;
+}
+
+#meteo tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+#meteo tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+#firstM {
+    background-color: rgb(212, 218, 221);
 }
 
 
@@ -266,7 +346,7 @@ h1 {
         letter-spacing: 0.2em;
         text-shadow: 2px 2px #000000;
     }
-#carousel p {
+    #carousel p {
         font-size: 30px;
 
     }
