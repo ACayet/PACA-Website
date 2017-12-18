@@ -237,6 +237,7 @@ anchors are inline so you need ot make them block to go full width
 
 .texte p{
     font-size : 19px;
+	text-align: justify;
 }
 
 h1 {
@@ -288,6 +289,13 @@ h1 {
         padding: 20px 54.4px 20px 54.4px;
     }
     <<<<<<< HEAD
+}
+
+@media screen and (max-width: 1280px)
+{
+	h1{
+		font-size: 6px
+	}
 }
 
 @media all and (min-width: 500px) and (max-width: 1000px) {
