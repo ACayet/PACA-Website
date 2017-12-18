@@ -39,7 +39,9 @@
 
 }
 
-
+html{
+    width : 100%;
+}
 
 /* change the background color */
 
@@ -268,8 +270,7 @@ h1 {
 
 .scrollTop a {
     font-size: 18px;
-    color: rgb(86,176,220);
-        border : 1px solid rgb(86,176,220);
+    color: rgb(86, 176, 220);
 }
 
 #meteo {
@@ -279,7 +280,8 @@ h1 {
 
 
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -353,6 +355,9 @@ a:active {
     .btn-round {
         font-size: 15px;
     }
+        #ancres td {
+        display : inline-block;
+    }
 }
 
 @media all and (min-width: 200px) and (max-width: 1200px) {
@@ -367,7 +372,14 @@ a:active {
         color: #2b6ca3;
         padding: 20px 54.4px 20px 54.4px;
     }
-    <<<<<<< HEAD
+        #ancres td {
+        display : inline-block;
+    }
+    
+    h1{
+        font-size : 60px;
+    }
+
 }
 
 @media all and (min-width: 500px) and (max-width: 1000px) {
@@ -377,17 +389,25 @@ a:active {
         letter-spacing: 0.2em;
         text-shadow: 2px 2px #000000;
     }
+    
+    #ancres td {
+        display : inline-block;
+    }
 
 }
 
-}
+100vw = 100% of viewport width
+100vh = 100% of viewport height
+1vmin = 1vw or 1vh, whichever is smaller
+1vmax = 1vw or 1vh, whichever is larger
 
-=======
-}
+ @media screen and (orientation:portrait) { height: 100vh;
+            width: 100vw; }
+ @media screen and (orientation:landscape) {height: 100vh;
+            width: 100vw; }
+
 
 .row {
     vertical-align: top;
     display: inline-block;
 }
-
-> > > > > > > e0da42d2eaa3f55f85ef1b7f8a670268edde00cb
