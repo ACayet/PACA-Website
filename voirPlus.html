@@ -1,14 +1,160 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
-  <meta charset="utf-8">
-  <title>PACA - Nice</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>PACA - Voir plus</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+
 </head>
-<body>
-  ...
-  <!-- Le reste du contenu -->
-  ...
+
+<header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="./accueil.html">
+                    <picture>
+                        <source srcset="./img/banierePACA.png" alt="BanierePaca" media="(min-width: 800px)">
+                        <img src="./img/logoPaca.png" alt="BanierePaca">
+                    </picture>
+                </a>
+            </div>
+            <div class="col-lg-12">
+
+                <nav class="navbar navbar-toggleable-md navbar-inverse navbar-custom">
+
+                    <div class="navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto ">
+                            <li class="nav-item" data-toggle="tab">
+                                <a id="accueil" class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item" data-toggle="tab">
+                                <a id="avignon" class="nav-link" href="#">Avignon</a>
+                            </li>
+                            <li class="nav-item" data-toggle="tab">
+                                <a id="cannes" class="nav-link" href="#">Cannes</a>
+                            </li>
+                            <li class="nav-item" data-toggle="tab">
+                                <a id="marseille" class="nav-link" href="#">Marseille</a>
+                            </li>
+                            <li class="nav-item" data-toggle="tab">
+                                <a id="nice" class="nav-link" href="#">Nice</a>
+                            </li>
+                            <li class="nav-item active" data-toggle="tab">
+                                <a id="voirPlus" class="nav-link" href="#">Voir plus</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+	
+
+
+</header>
+<body>				
+	<img src="./img/bannVoirPlus.png" class="img-fluid remplirEcran" alt="Banniere Autre">
+    <div class="carousel-caption justify-content-center align-items-center" id="caption">
+        <h2>UNE RÉGION PLEINE DE RESSOURCES</h2>
+    </div>
+	<div class="container">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+		 <div id="entete" class="center">
+                    <h2>Il y a plus à découvrir</h2>
+                    <br>
+                    <p>La région Provence-Alpes-Côte d’Azur est une région disposant 
+					   d’énormément d’atout. Il y fait chaud, les plages sont faciles 
+					   a trouvées puisque la région est collée à la Mer Méditerranée. 
+					   La région est à proximité de beaucoup d’autres lieux comme 
+					   l’Italie ou Monaco, et la région dispose de reliefs variés. 
+					   C’est une région fortement culturelle comme nos diverses 
+					   présentations ont pu le montrer, ce qui en fait une région 
+					   idéale pour passer vos vacances.
+					</p>
+                </div>
+			<br>
+			
+			<br>
+			<div class="titre">Toulon</div>
+			<div class="row"><div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8"><div class="paragraphe"><p>Toulon
+			est la ville où il fait le plus chaud en France. C’est une 
+			ville à proximité des plages, idéale pour y passer vos 
+			vacances d’Été. C’est aussi le foyer du Racing Club Toulon, 
+			club de Rugby triple champion de France, jouant au stade Mayol. 
+			On peut aussi se rendre à l’Opéra de Toulon pour assister à des 
+			représentations. <p></div></div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><div class="imageRight"><img src="./img/ToulonVoirPlus.png" alt="Toulon" class="img-fluid"></div></div></div>
+			<br>
+			<div class="titre">Antibes</div>
+			<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><div class="imageLeft"><img src="./img/antibesVoirPlus.png" alt="Antibes" class="img-fluid"></div></div>
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8"><div class="paragraphe"><p>Une autre 
+			ville susceptible de vous intéresser, Antibes dispose de divers 
+			atouts pouvant rendre sa visite intéressante. On y trouve le Cap 
+			d’Antibes, presqu'île on l’on trouve divers parcs botaniques ainsi 
+			que des lieux historiques. On peut parcourir ce cap en parcourant 
+			le Sentier de Tire-Poil. La ville abrite aussi le Musée Picasso et 
+			un Espace Marineland.<p></div></div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><div class="imageLeftHidden"><img src="./img/antibesVoirPlus.png" alt="Antibes" class="img-fluid"></div></div>
+
+			</div>
+			<br>
+			<br>
+		    <div class="titre">Aix-En-Provence</div>
+			<div class="row"><div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8"><div class="paragraphe"><p>Ville 
+			culturelle et sportive, Aix-en-Provence accueille divers événements 
+			tout au long de l’année dans ces deux domaines, comme la course 
+			nommée “Provençale Sainte-Victoire”, ou l’”Aix en foulée” pour 
+			le sport ou le “Festival International d’art lyrique d’Aix-en-Provence”. 
+			On y trouve aussi le Grand Théâtre de Provence et la Chapelle de 
+			Notre-Dame-de-Consolation.</p></div></div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><div class="imageRight"><img src="./img/AixVoirPlus.png" alt="Aix-en-Provence" class="img-fluid"></div></div></div>
+
+			<div class="titre">Saint-Tropez</div>
+			<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><div class="imageLeft"><img src="./img/StropVoirPlus.png" alt="Saint-Tropez" class="img-fluid"></div></div>
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8"><div class="paragraphe"><p>Station 
+			balnéaire connue à l’internationale, Saint-Tropez est une ville 
+			adorée par la Jet-Set, aussi bien Américaine que Française. On 
+			y trouve beaucoup d’Hôtel, notamment des cinq étoiles comme 
+			l’Hôtel Byblos. On y trouve aussi divers monuments religieux, 
+			culturel, commémoratifs et environnementaux.</p></div></div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><div class="imageLeftHidden"><img src="./img/StropVoirPlus.png" alt="Saint-Tropez" class="img-fluid"></div></div>
+
+			</div>
+			<br>
+			<br>
+		</div>
+	</div>
 </body>
+
+	<div class="container">
+	<div class="credit"><p>© 2017 by Fayçal BOUARKAT, Tom MOORE, Arthur CAYET, Allan LE GUERN, using HTML, CSS, BOOTSTRAP, SVG</p></div>
+		<div class="boutonRS">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google"></a>
+		</div>
+	</div>
+
 </html>
