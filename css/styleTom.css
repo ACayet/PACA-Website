@@ -5,12 +5,6 @@
 }
 
 @font-face {
-    font-family: DotMatri;
-    src: url(../font/DOTMATRI.ttf);
-
-}
-
-@font-face {
     font-family: AvenirLight;
     src: url(../font/AvenirLight.otf);
 
@@ -39,14 +33,7 @@
 
 }
 
-html {
-    width: 100%;
-}
 
-.container-fluid {
-	padding-right: 0;
-    padding-left: 0;
-}
 
 /* change the background color */
 
@@ -67,7 +54,7 @@ html {
 
 .navbar-custom .navbar-nav .nav-link {
     color: #2b6ca3;
-    padding: 20px 62.5px 20px 62.5px;
+    padding: 20px 62.8px 20px 62.8px;
 }
 
 /* change the background color */
@@ -149,6 +136,19 @@ Forces image to be 100% width and not max width of 100%
     text-align: justify;
 }
 
+.redLeft {
+    border-left: 9px solid #ff3600;
+    padding-left: 10px;
+}
+
+.chevron {
+    border-left: 15px solid #ff3600;
+    border-right: 15px solid #ff3600;
+    border-radius: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .buttonS {
     border-radius: 20px 0px;
     border-color: rgb(255, 64, 0);
@@ -163,18 +163,16 @@ Forces image to be 100% width and not max width of 100%
 
 }
 
-.buttonS:hover {
-    border-color: rgb(252, 161, 3);
-    background-color: rgb(252, 161, 3);
-    color: white;
-}
-
 #ancres td {
     padding-left: 4em;
     padding-right: 4em;
 }
 
-
+#ancres a:hover {
+    border-color: rgb(252, 161, 3);
+    background-color: rgb(252, 161, 3);
+    color: white;
+}
 
 a:focus {
     color: white;
@@ -218,7 +216,7 @@ anchors are inline so you need ot make them block to go full width
 
 #caption h2 {
     font-family: "AssistantEB", "Arial";
-    font-size: 90px;
+    font-size: 100px;
     letter-spacing: 0.2em;
     margin-top: 0.6em;
 }
@@ -229,6 +227,10 @@ anchors are inline so you need ot make them block to go full width
 
 .texteD {
     text-align: right;
+}
+
+.texteD {
+    text-align: left;
 }
 
 .texteM {
@@ -254,277 +256,52 @@ anchors are inline so you need ot make them block to go full width
 
 .texte p {
     font-size: 19px;
+    text-align: justify;
 }
 
-
-
 h1 {
+    margin-top: 0.9em;
     font-size: 120px;
     font-family: "AssistantEB", "Arial Black";
     color: rgb(96, 94, 94);
     letter-spacing: 0.15em;
-    margin-top: 0.9em;
-}
-
-.scrollTop {
-    position: fixed;
-    right: 3%;
-    bottom: 10px;
-    padding: 20px;
-    opacity: 0;
-    transition: all 0.4s ease-in-out 0s;
-}
-
-.scrollTop a {
-    font-size: 18px;
-    color: rgb(86, 176, 220);
-}
-
-#meteo {
-    text-align: center;
-    table-layout: fixed;
-    font-family: "DotMatri", "Arial";
-
 
 }
 
-a {
-    text-decoration: none;
+.marginBot {
+    margin-bottom: 3em;
 }
 
-a:link {
-    text-decoration: none;
+.marginTop {
+    margin-top: 5em;
 }
 
-a:visited {
-    text-decoration: none;
+.chevronDroit {
+    margin-left: 30px;
 }
 
-a:hover {
-    text-decoration: none;
-}
 
-a:active {
-    text-decoration: none;
-}
-
-#meteo td {
-    width: 33%;
-}
-
-.heureT {
-    font-size: 40px;
-}
-
-.temp {
-    font-size: 30px;
-}
-
-#nomVille {
-    font-size: 60px;
+h4 {
+    font-size: 120px;
 }
 
 .remplirEcran {
     width: -webkit-fill-available;
 }
 
-#meteo tr:last-child td:first-child {
-    border-bottom-left-radius: 10px;
-}
-
-#meteo tr:last-child td:last-child {
-    border-bottom-right-radius: 10px;
-}
-
-#firstM {
-    background-color: rgb(212, 218, 221);
+.buttonS:hover {
+    border-color: rgb(252, 161, 3);
+    background-color: rgb(252, 161, 3);
+    color: white;
 }
 
 
-.paragraphe {
-    /*Paragraphe dans une partie*/
-    font-size: 20px;
-    font-family: "DINLight", "Arial Black";
-    text-align: justify;
-
-}
-
-.titre {
-    /*Titre d'un paragraphe*/
-    font-size: 29px;
-    font-family: "DINLight", "Arial Black";
-    text-align: justify;
-    font-weight: bold;
-
-}
-
-.credit {
-    /*Texte footer*/
-    font-size: 12px;
-    font-family: "DINLight", "Arial Black";
-    text-align: center;
-    color: DarkGrey;
-
-}
-
-.remplirEcran {
-    width: -webkit-fill-available;
-}
-
-.imageRight {
-    /*Mettre une image sur la droite*/
-    text-align: right;
-
-}
-
-
-.imageLeft {
-    /*Mettre une image sur la gauche*/
-    text-align: left;
-
-}
-
-.imageLeftHidden {
-    text-align: right;
-    display: none;
-}
 
 #carousel p {
     font-size: 44px;
     font-family: "AvenirLight", "Arial";
     letter-spacing: 0.2em;
 }
-
-@media all and (min-width: 200px) and (max-width:500px) {
-    #carousel h2 {
-        font-size: 40px;
-        font-family: "AssistantEB", "Arial Black";
-        letter-spacing: 0.2em;
-        text-shadow: 2px 2px #000000;
-    }
-    #carousel p {
-        font-size: 30px;
-
-    }
-    .btn-round {
-        font-size: 15px;
-    }
-
-
-}
-
-@media all and (min-width: 200px) and (max-width: 1200px) {
-    .navbar-custom {
-        background-color: #fffff;
-        padding: 0;
-        font-size: 14px;
-        white-space: nowrap;
-        text-align: center;
-    }
-    .navbar-custom .navbar-nav .nav-link {
-        color: #2b6ca3;
-        padding: 20px 54.4px 20px 54.4px;
-    }
-
-
-    h1 {
-        font-size: 60px;
-    }
-
-}
-
-@media all and (min-width: 500px) and (max-width: 1000px) {
-    #carousel h2 {
-        font-size: 60px;
-        font-family: "AssistantEB", "Arial Black";
-        letter-spacing: 0.2em;
-        text-shadow: 2px 2px #000000;
-    }
-
-
-
-}
-
-100vw=100% of viewport width 100vh=100% of viewport height 1vmin=1vw or 1vh,
-whichever is smaller 1vmax=1vw or 1vh,
-whichever is larger @media screen and (orientation:portrait) {
-    height: 100vh;
-    width: 100vw;
-}
-
-@media screen and (orientation:landscape) {
-    height: 100vh;
-    width: 100vw;
-}
-
-
-.row {
-    vertical-align: top;
-    display: inline-block;
-}
-
-
-/*Bouton réseaux sociaux*/
-
-/* Style all font awesome icons */
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 50px;
-}
-
-/* Twitter */
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 50px;
-}
-
-/* Google + */
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 50px;
-}
-
-.boutonRS {
-    text-align: center;
-}
-
-
 
 @media screen and (max-width: 1280px) {
 
