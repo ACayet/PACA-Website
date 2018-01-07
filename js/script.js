@@ -26,28 +26,28 @@ jQuery(function () {
     }
 
 
-    $("#avignon").click(function () {
-        location.href = "avignon.html";
+    $(".avignon").click(function () {
+        location.href = "avignon.html#debutpage";
     });
 
-    $("#accueil").click(function () {
+    $(".accueil").click(function () {
         location.href = "accueil.html";
     });
 
-    $("#cannes").click(function () {
+    $(".cannes").click(function () {
         location.href = "cannes.html#debutpage";
     });
 
-    $("#marseille").click(function () {
-        location.href = "marseille.html";
+    $(".marseille").click(function () {
+        location.href = "marseille.html#debutpage";
     });
 
-    $("#nice").click(function () {
-        location.href = "nice.html";
+    $(".nice").click(function () {
+        location.href = "nice.html#debutpage";
     });
 
-    $("#voirPlus").click(function () {
-        location.href = "voirPlus.html";
+    $(".voirPlus").click(function () {
+        location.href = "voirPlus.html#debutpage";
     });
 
     $('a').on('click', function (evt) {
