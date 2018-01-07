@@ -200,6 +200,7 @@ anchors are inline so you need ot make them block to go full width
     letter-spacing: 0.2em;
     text-shadow: 2px 2px #000000;
     text-align: center;
+    
 }
 
 #entete h2 {
@@ -215,6 +216,10 @@ anchors are inline so you need ot make them block to go full width
     text-align: justify;
     font-size: 26px;
     font-family: "DINLight", "Arial Black";
+}
+
+#caption{
+    z-index: 0;
 }
 
 #caption h2 {
