@@ -1,0 +1,65 @@
+.map_image{
+	width:50%;
+	float: right;
+}
+.map_image path{
+	stroke:#FFF;
+	stroke-width:1px;
+}
+
+.st0{
+	fill:#CCCCCC;
+	stroke:#FFFFFF;
+	stroke-width:0.5;
+}
+
+.map1{
+	fill:#CCCCCC;
+	stroke:#FFFFFF;
+	stroke-width:0.5;
+}
+
+.remplir_nice{
+	fill:#ff4000;
+}
+
+.remplir_nice:hover{
+	fill:#ffa600;
+}
+
+.remplir_cannes{
+	fill:#ff4000;
+}
+
+.remplir_cannes:hover{
+	fill:#ffa600;
+}
+
+.remplir_avignon{
+	fill:#ff4000;
+}
+
+.remplir_avignon:hover{
+	fill:#ffa600;
+}
+
+.remplir_marseille{
+	fill:#ff4000;
+}
+
+.remplir_marseille:hover{
+	fill:#ffa600;
+}
+
+.map3{
+	display:none;
+}
+
+#FR-PAC{
+	fill:#FE0000;
+	transition:fill 0.3s;
+}
+
+#FR-PAC:hover{
+	fill:#FFA600;
+}

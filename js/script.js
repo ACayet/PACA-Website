@@ -15,6 +15,18 @@ jQuery(function () {
     }, "json");
 
 
+    $("#FR-PAC").click(function () {
+        $(".map1").hide("slow");
+        $(".map3").show("slow");
+        $(".zoom").toggle("slow");
+    });
+    $("#FR-PACA").click(function () {
+        $(".map3").hide("slow");
+        $(".map1").show("slow");
+        $(".zoom").toggle("slow");
+    });
+
+
     $("body").css("display", "none");
 
     $("body").fadeIn(2000);
