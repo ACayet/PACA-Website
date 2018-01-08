@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: AssistantEB;
     src: url(../font/AssistantEB.ttf);
 
@@ -467,6 +467,23 @@ whichever is larger @media screen and (orientation:portrait) {
 .row {
     vertical-align: top;
     display: inline-block;
+}
+
+.chevron {
+    border-left: 15px solid #ff3600;
+    border-right: 15px solid #ff3600;
+    border-radius: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.chevronDroit {
+    margin-left: 30px;
+}
+
+.redLeft {
+    border-left: 9px solid #ff3600;
+    padding-left: 10px;
 }
 
 
